@@ -7,11 +7,10 @@ footer {
 }
 
 .row {
-    display: flex;
-    flex-direction:row;
 }
 
 .column {
+    padding: 10px;
 
 
 }
@@ -19,12 +18,19 @@ footer {
 
 .cards {
     background-color: rgb(242, 237, 211);
+    width: 50%;
+    padding-left: 0.25rem;
+    padding-bottom: 1rem;
+    margin-left: 0.25rem;
+    border-radius: 1%;
+    border: 1px solid black;
+
 }
 
 a {
     color:inherit;
 }
 
-.line {
-
+h1 {
+    padding-left: 0.25rem;
 }
