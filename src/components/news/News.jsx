@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import '../styles.scss';
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = "https://vef2-2021-ruv-rss-json-proxy.herokuapp.com/";
 
 export function News({ id, showAll = false }) {
   const [data, setData] = useState(null);
