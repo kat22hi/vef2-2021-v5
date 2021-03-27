@@ -23,10 +23,10 @@ export function NewsList() {
     setLoading(false);
   }, []);
 
-  if (errorEncountered) return <div>Villa kom upp. Gat ekki sótt fréttir.</div>;
+  if (errorEncountered) return <div>Villa kom upp, gat ekki sótt fréttir.</div>;
 
   return (
-    <div>
+    <div className="row">
       {loading && "Sækir flokka"}
       {data &&
         data.map((flokkur) => (

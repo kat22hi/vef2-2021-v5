@@ -28,7 +28,6 @@ export function News({ id, showAll = false }) {
   const news = showAll ? data.items : data.items.slice(0, 5);
 
   return (
-    <div className="row">
       <div className="column">
         <div className="cards">
           <h3>{data && data.title}</h3>
@@ -43,6 +42,5 @@ export function News({ id, showAll = false }) {
           </div>
         </div>
       </div>
-    </div>
   );
 }
